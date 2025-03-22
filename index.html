@@ -17,12 +17,15 @@
         </header>
 
         <main>
-            <form id="haiku-generator-form">
-                <input type="text" placeholder="Enter one word." autofocus required autocomplete="off"
-                    class="instruction" id="user-instruction" />
-                <input type="submit" class="submit-button" />
-            </form>
-            <div class="haiku" id="haiku"> </div>
+            <div class="form-container">
+                <form id="haiku-generator-form">
+                    <input type="text" placeholder="Enter one word." autofocus required autocomplete="off"
+                        class="instruction" id="user-instruction" />
+                    <input type="submit" class="submit-button" />
+                </form>
+                <div class="hint">i.e. an object, a feeling, an action, etc</div>
+            </div>
+            <div class="haiku hidden" id="haiku"> </div>
         </main>
 
         <footer>This AI project was coded by Kat. It is <a href="https://github.com/web3kat/AI-Recipe-Generator"
