@@ -9,28 +9,31 @@
 </head>
 
 <body>
-    <header>
-        <h1>AI Haiku Generator</h1>
-    </header>
+    <div class="container">
+        <header>
+            <h1>AI Haiku Generator</h1>
+        </header>
 
-    <main>
-        <form>
-            <input type="text" placeholder="Enter one word you're thinking of right now." autofocus required
-                autocomplete="off" />
-            <input type="submit" />
-        </form>
-        <div>
-            The haiku will go here
-            <br />
-            The haiku will go here
-            <br />
-            The haiku will go here
-        </div>
-    </main>
+        <main>
+            <form>
+                <input type="text" placeholder="Enter one word." autofocus required autocomplete="off"
+                    class="instruction" />
+                <input type="submit" class="submit-button" />
+            </form>
+            <div class="haiku">
+                The haiku will go here
+                <br />
+                The haiku will go here
+                <br />
+                The haiku will go here
+            </div>
+        </main>
 
-    <footer>This AI project was coded by Kat. It is <a href="https://github.com/web3kat/AI-Recipe-Generator"
-            target="_blank">open-sourced on GitHub</a> and hosted on <a href="https://joyful-blini-3dc05e.netlify.app/"
-            target="_blank">Netlify</a>.</footer>
+        <footer>This AI project was coded by Kat. It is <a href="https://github.com/web3kat/AI-Recipe-Generator"
+                target="_blank">open-sourced on GitHub</a> and hosted on <a
+                href="https://joyful-blini-3dc05e.netlify.app/" target="_blank">Netlify</a>.</footer>
+
+    </div>
     <script src="src/index.js"></script>
 </body>
 
